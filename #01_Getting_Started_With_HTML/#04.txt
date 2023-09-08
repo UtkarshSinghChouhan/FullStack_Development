@@ -1,0 +1,22 @@
+*********** Tag: **************
+    -> A "tag" is a keyword enclosed within angle brackets (`<` and `>`) that defines an HTML element.
+    -> Tags are used to mark the beginning and end of an HTML element, and they provide instructions to the web browser on how to display or interpret the content within that element.
+    -> Tags are typically in lowercase, although they are not case-sensitive in HTML5.
+
+*Element:*
+    -> An "element" is formed by a pair of tags, specifically an opening tag and a closing tag. The opening tag defines the beginning of the element, and the closing tag marks the end.
+    -> The content between the opening and closing tags can be text, images, links, or other types of content.
+    -> Elements can be nested within each other.
+
+Here's an example of an HTML tag and element:
+
+Below is a html-code
+<p>This is a paragraph element.</p>
+
+
+In this example:
+- `<p>` is the opening tag, and `</p>` is the closing tag.
+- The content "This is a paragraph element." is enclosed within these tags.
+- Together, `<p>` and `</p>` define a "paragraph element," and the content between them is treated as a paragraph by the web browser, causing it to be displayed as a separate block of text.
+
+Tags and elements are the building blocks of HTML, allowing you to structure and format content on web pages.
