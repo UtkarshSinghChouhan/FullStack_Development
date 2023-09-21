@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign-In</title>
+
+    <style>
+      .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .form_container {
+        box-shadow: 8px 6px 21px -4px #000000;
+        padding: 7px 20px 36px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form_container">
+        <h2>Sign-In</h2>
+
+        <form action="#" method="post" class="form">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+          /><br /><br />
+
+          <button>Sign-in</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

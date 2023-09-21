@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign-Up</title>
+    <style>
+      .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .form_container {
+        box-shadow: 8px 6px 21px -4px #000000;
+        padding: 7px 20px 36px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form_container">
+        <h2>Sign-Up</h2>
+        <form action="#" method="post">
+          <label for="firstName">First Name:</label>
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            required
+          /><br /><br />
+
+          <label for="lastName">Last Name:</label>
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            required
+          /><br /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+          /><br /><br />
+
+          <label for="confirmPassword">Confirm Password:</label>
+          <input
+            type="password"
+            id="confirmPassword"
+            name="confirmPassword"
+            required
+          /><br /><br />
+
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required /><br /><br />
+
+          <label>Gender:</label>
+          <input type="radio" id="male" name="gender" value="Male" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="Female" />
+          <label for="female">Female</label><br /><br />
+
+          <input type="checkbox" id="agree" name="agree" required />
+          <label for="agree">I agree to the terms and conditions</label
+          ><br /><br />
+
+          <input type="submit" value="Sign Up" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
