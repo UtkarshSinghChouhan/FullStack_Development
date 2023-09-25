@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styled HTML Form</title>
+    <style>
+      /* Custom color palette */
+      :root {
+        --primary-color: #007bff;
+        --secondary-color: #333;
+        --input-background: #f7f7f7;
+        --input-border: #ccc;
+        --button-background: var(--primary-color);
+        --button-text: #fff;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+      }
+
+      /* Container for the form */
+      .form-container {
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: var(--input-background);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Form styles */
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      /* Input styles */
+      input[type="text"],
+      input[type="email"],
+      input[type="password"],
+      select,
+      textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid var(--input-border);
+        border-radius: 5px;
+        background-color: var(--input-background);
+      }
+
+      /* Button styles */
+      input[type="submit"] {
+        background-color: var(--button-background);
+        color: var(--button-text);
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      /* Apply opacity to a form section */
+      .opacity-section {
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
+        <select>
+          <option value="inquiry">General Inquiry</option>
+          <option value="support">Customer Support</option>
+          <option value="feedback">Feedback</option>
+        </select>
+        <textarea placeholder="Message"></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <div class="form-container opacity-section">
+      <h2>Opacitized Section</h2>
+      <p>This section has reduced opacity.</p>
+    </div>
+  </body>
+</html>

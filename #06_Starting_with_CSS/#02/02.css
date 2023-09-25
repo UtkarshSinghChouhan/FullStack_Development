@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.paragraph {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Specific styling for the first paragraph */
+.paragraph__intro {
+  font-weight: bold;
+  color: #e180ba;
+}
+
+/* Specific styling for the second paragraph */
+.paragraph__main {
+  font-style: italic;
+  color: #81b8ef;
+}
+
+/* Specific styling for the third paragraph with a modifier */
+.paragraph__warning {
+  font-weight: bold;
+  color: rgb(252, 173, 145);
+  background-color: #ffe6e6;
+  padding: 5px;
+}
