@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  padding: 30px;
+}
+
+header {
+  /* background-color: rebeccapurple; */
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15.208px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+header .logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+header .logos .logo1 {
+  width: 66.917px;
+  height: 81.111px;
+}
+header .logos .logo2 {
+  width: 81.111px;
+  height: 81.111px;
+}
+
+header .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+header .header .top {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+header .header .bottom {
+  display: flex;
+  gap: 10px;
+}
+
+header .header .bottom .register,
+header .header .bottom .agent-login {
+  border: 1.014px solid rgba(51, 51, 51, 0.2);
+
+  border-radius: 7px;
+  padding: 10px 20px;
+}
+
+div.login {
+  background-color: #fb792b;
+  color: #fff;
+  border-radius: 7px;
+  padding: 10px 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.content .heading {
+  align-self: flex-start;
+}
+
+.content .heading .main {
+  font-size: 48.667px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.content .heading .below {
+  font-size: 32.444px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.content .heading .below :nth-child(1) {
+  color: #01bb0a;
+}
+.content .heading .below :nth-child(2) {
+  color: #fb792b;
+}
+.content .heading .below :nth-child(3) {
+  color: #213d77;
+}
+
+.content .selection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20.278px;
+}
+
+.content .selection .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10.139px;
+  padding: 10.139px 15.208px;
+  border-radius: 5.069px;
+}
+
+.content .selection .one {
+  background-color: #213d77;
+  color: #fff;
+}
+
+.content .selection .two,
+.content .selection .three {
+  border: 1.014px solid rgba(51, 51, 51, 0.5);
+  background-color: #fff;
+}
+
+.travel_info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.src-des,
+.timings {
+  width: 618.472px;
+  height: 116.597px;
+
+  border-radius: 10.139px;
+  border: 1.014px solid rgba(20, 20, 20, 0.1);
+}
+
+.src-des {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  align-items: center;
+}
+
+.src {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.src .src_info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.src_info :nth-child(2) {
+  font-size: 25.347px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.src_info :nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+
+.src_info :nth-child(1),
+.src_info :nth-child(3) {
+  font-size: 15.208px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  opacity: 0.8;
+}
+
+.timings {
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timings .card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.card_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.card_info :nth-child(1),
+.card_info :nth-child(3) {
+  font-size: 15.208px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  opacity: 0.8;
+}
+
+.card_info :nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_info :nth-child(2) {
+  font-size: 25.347px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.content .button {
+  width: 618.472px;
+  height: 81.111px;
+  background-color: #01bb0a;
+  border-radius: 10.139px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+
+  font-size: 25.347px;
+  font-style: normal;
+  font-weight: 900;
+  color: #fff;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+}
+
+.right img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
