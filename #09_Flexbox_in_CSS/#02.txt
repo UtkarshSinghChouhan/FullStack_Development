@@ -1,0 +1,45 @@
+In the CSS Flexbox layout model-
+
+1. `justify-content`:
+   - This property determines how flex items are distributed along the main axis.
+   - Common values include:
+     - `flex-start`: Items are packed to the start of the main axis.
+     - `flex-end`: Items are packed to the end of the main axis.
+     - `center`: Items are centered along the main axis.
+     - `space-between`: Items are evenly spaced with the first item at the start and the last item at the end, with equal space between them.
+     - `space-around`: Items are evenly spaced with equal space around them, including space at the start and end.
+     - `space-evenly`: Items are evenly spaced with equal space between and around them.
+   - `justify-content` is typically used to control the horizontal alignment of items in a row (if `flex-direction` is set to "row") or the vertical alignment in a column (if `flex-direction` is set to "column").
+
+2. `align-items`:
+   - This property controls how flex items are aligned along the cross axis (the axis perpendicular to the main axis).
+   - Common values include:
+     - `flex-start`: Items are aligned at the start of the cross axis.
+     - `flex-end`: Items are aligned at the end of the cross axis.
+     - `center`: Items are centered along the cross axis.
+     - `baseline`: Items are aligned such that their baselines are aligned.
+     - `stretch` (default): Items are stretched to fill the container along the cross axis.
+   - `align-items` is typically used to control the vertical alignment of items in a row (if `flex-direction` is set to "row") or the horizontal alignment in a column (if `flex-direction` is set to "column").
+
+3. `gap`:
+   - This property sets the spacing (or gap) between flex items within a flex container.
+   - It can be used to control the spacing both horizontally and vertically between items.
+   - The `gap` property is a shorthand for `row-gap` and `column-gap`, which allow you to specify different gap values for rows and columns in a grid.
+
+4. `flex-direction`:
+   - This property defines the direction in which flex items are laid out within a flex container.
+   - Common values include:
+     - `row` (default): Items are laid out horizontally in a row.
+     - `row-reverse`: Items are laid out horizontally in a row, but in reverse order.
+     - `column`: Items are laid out vertically in a column.
+     - `column-reverse`: Items are laid out vertically in a column, but in reverse order.
+   - `flex-direction` determines whether the main axis is horizontal (row) or vertical (column) and affects how `justify-content` and `align-items` behave.
+
+5. `flex-wrap`:
+   - This property controls whether flex items should wrap to the next line or not if they overflow the available space within the flex container.
+   - Common values include:
+     - `nowrap` (default): Items do not wrap; they continue in a single line.
+     - `wrap`: Items wrap to the next line when there isn't enough space.
+     - `wrap-reverse`: Items wrap to the next line, but in reverse order.
+   - `flex-wrap` is useful when you want to create multi-line flex layouts.
+

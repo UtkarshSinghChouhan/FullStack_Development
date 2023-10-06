@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#05</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+      }
+
+      .red {
+        background-color: red;
+        z-index: 1;
+      }
+
+      .blue {
+        background-color: blue;
+        z-index: 2;
+      }
+
+      .green {
+        background-color: green;
+        z-index: 3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box red"></div>
+    <div class="box blue"></div>
+    <div class="box green"></div>
+  </body>
+</html>
