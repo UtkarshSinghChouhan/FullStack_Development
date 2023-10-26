@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 50px 50px;
+        grid-auto-columns: 250px; /* Define the size for auto-generated columns which is none in this case */
+        grid-auto-rows: 175px; /* Define the size for auto-generated rows */
+        gap: 10px;
+      }
+
+      .grid-item {
+        background-color: #3498db;
+        color: white;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--grid-auto-rows and grid-auto-columns properties specify the size of rows and columns that are created automatically when you have more grid items than you have defined rows or columns. -->
+
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+    </div>
+  </body>
+</html>

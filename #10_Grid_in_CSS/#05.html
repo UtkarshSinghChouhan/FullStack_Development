@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#05</title>
+
+    <style>
+      .container {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+        height: 200px;
+      }
+
+      .boxA {
+        justify-self: start;
+        border-radius: 10px;
+        background-color: pink;
+        width: 200px;
+        height: 100%;
+      }
+      .boxB {
+        justify-self: end;
+        border-radius: 10px;
+        background-color: gray;
+        width: 200px;
+        height: 100%;
+      }
+      .boxC {
+        justify-self: end;
+        border-radius: 10px;
+        background-color: rgb(250, 143, 161);
+        width: 200px;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="boxA">A</div>
+      <div class="boxB">B</div>
+      <div class="boxC">C</div>
+    </div>
+  </body>
+</html>

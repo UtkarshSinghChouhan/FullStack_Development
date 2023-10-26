@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav a {
+  color: red;
+}
+
+nav > h2 {
+  color: rgb(78, 78, 252);
+  background: rgb(171, 171, 237);
+}
+
+p:first-of-type {
+  color: red;
+}
+
+a[href] {
+  color: red;
+  text-decoration: none;
+}
+
+a[class="active"] {
+  color: pink;
+  text-decoration: underline;
+}
+
+a[target="_self"] {
+  background-color: grey;
+}
+
+p:last-of-type::after {
+  content: " ...";
+}
+
+ul li::marker {
+  color: red; /* Change the color of the list item markers */
+}
+
+p:nth-child(even)::first-letter {
+  color: red;
+  font-size: 30px;
+}
