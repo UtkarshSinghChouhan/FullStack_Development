@@ -1,0 +1,29 @@
+Version control, also known as source code control or revision control, is a system that manages changes
+to files, documents, or any set of data over time. Its primary role in software development is to track
+and manage different versions of a project's source code and related files, ensuring collaboration, organization,
+and history tracking. Here's a concise explanation of version control and its role in software development:
+
+Version Control:
+- Version control is a system that tracks changes made to files over time, allowing multiple people to collaborate
+  on the same project without conflicts.
+- It records each modification, including who made the change, when it was made, and what was changed.
+- It enables the organization of code into different versions or branches, making it easier to manage and maintain.
+
+Role in Software Development:
+- Collaboration: It facilitates collaboration among developers by providing a central repository where they can share
+  and coordinate their work on a project.
+- History Tracking: Version control keeps a history of changes, which helps diagnose issues, roll back to previous working
+  states, and understand the evolution of the project.
+- Code Backup: It serves as a backup system, ensuring that code and project assets are not lost due to accidental deletions
+  or overwrites.
+- Parallel Development: Developers can work on different features or fixes in parallel without interfering with each other's
+  work, thanks to branches and merging.
+- Quality Control: It helps maintain code quality by enforcing best practices, code review processes, and integration testing.
+- Rollbacks and Bug Fixes: In case of bugs or issues, version control allows for the quick identification of when and how a 
+  problem was introduced, making it easier to fix.
+- Release Management: It supports the management of different versions of a software product for testing, staging, and production
+  environments.
+- Auditing and Compliance: It provides an audit trail, which is valuable for compliance, security, and accountability.
+
+Common version control systems include Git, Subversion, Mercurial, and Perforce. Git, in particular, is widely used in
+the software development industry due to its distributed nature, speed, and robust branching and merging capabilities.
