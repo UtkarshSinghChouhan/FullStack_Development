@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#03</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      .header {
+        width: 100vw;
+        padding: 20px 10px;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #000;
+        color: white;
+        font-weight: 700;
+        font-size: large;
+      }
+
+      @media screen and (max-width: 768px) {
+        .header {
+          flex-direction: column;
+          justify-content: center;
+          background-color: gray;
+        }
+
+        .nav-items {
+          width: 100%;
+          text-align: center;
+          padding: 20px 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="nav-items">Home</div>
+      <div class="nav-items">About</div>
+      <div class="nav-items">Services</div>
+      <div class="nav-items">Portfolio</div>
+      <div class="nav-items">Contact</div>
+    </div>
+  </body>
+</html>

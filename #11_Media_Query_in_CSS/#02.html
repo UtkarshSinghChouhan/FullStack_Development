@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>#02</title>
+
+    <style>
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      img {
+        object-fit: cover;
+        border-radius: 10px;
+        width: 30%;
+      }
+
+      @media screen and (max-width: 800px) {
+        img {
+          width: 45%;
+        }
+      }
+      @media screen and (max-width: 500px) {
+        img {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://images.pexels.com/photos/1906658/pexels-photo-1906658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="img_01"
+      />
+      <img
+        src="https://images.pexels.com/photos/1266810/pexels-photo-1266810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="img_02"
+      />
+      <img
+        src="https://images.pexels.com/photos/2088210/pexels-photo-2088210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="img_03"
+      />
+    </div>
+  </body>
+</html>
