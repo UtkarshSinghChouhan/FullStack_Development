@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question_1</title>
+  </head>
+  <style>
+    :root {
+      --primaryColor: #00b7ff;
+      --secondaryColor: #6c757d;
+    }
+
+    button {
+      font-size: 25px;
+      border: none;
+      padding: 5px 20px;
+      border-radius: 10px;
+      color: white;
+    }
+
+    #primaryBtn {
+      background-color: var(--primaryColor);
+    }
+
+    #secondaryBtn {
+      background-color: var(--secondaryColor);
+    }
+  </style>
+
+  <!-- The purpose of using var() in CSS is to define and use custom properties, known as CSS variables, 
+for reusing and centralizing values (like colors or font sizes) in your stylesheet. 
+This makes your code more maintainable, consistent, and easier to update since you only need to 
+change the value of the variable in one place, and it will automatically update all instances where 
+the variable is used. -->
+
+  <body>
+    <button id="primaryBtn">Primary Button</button>
+    <button id="secondaryBtn">Secondary Button</button>
+  </body>
+</html>
