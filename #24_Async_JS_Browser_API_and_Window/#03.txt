@@ -1,0 +1,29 @@
+The same-origin policy is a security measure implemented by web browsers to prevent JavaScript code from making AJAX requests to domains other than the one from which the script was originally served. It aims to mitigate security risks such as cross-site scripting (XSS) attacks and data theft by restricting the ability of web pages to interact with resources from different origins.
+
+To work around the same-origin policy, we can employ techniques such as:
+
+Cross-Origin Resource Sharing (CORS): By configuring 
+the server to include CORS headers in its responses,
+we can specify which origins are allowed to access
+the resources. This allows cross-origin requests to
+be made securely.
+
+JSONP (JSON with Padding): JSONP is a technique that
+enables cross-domain AJAX requests by injecting a
+script tag into the HTML document. The server 
+responds with JSON data wrapped in a function call, 
+allowing the client-side JavaScript to access the 
+data.
+
+Proxy Servers: Developers can set up proxy servers on
+the same domain as the web application. These 
+servers forward AJAX requests to the desired 
+destination and relay the responses back to the 
+client, effectively bypassing the same-origin policy.
+
+CORS Proxy Services: CORS proxy services act as 
+intermediaries between the client and the remote 
+server. They fetch resources from the remote server 
+on behalf of the client and add CORS headers to the 
+response, allowing access from any origin.
+
